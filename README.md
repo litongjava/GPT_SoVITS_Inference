@@ -20,7 +20,10 @@
 ## ⚒️ 安装依赖
 
 推荐 Python>=3.9,<=3.10
-
+```
+conda create --name xd_lab_gpt_sovits_infereace python=3.10 -y
+conda activate xd_lab_gpt_sovits_infereace
+```
 ```
 conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=11.8 -c pytorch -c nvidia
 
